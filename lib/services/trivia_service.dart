@@ -42,3 +42,12 @@ class TriviaService {
       }
 
       final results = data['data'] as List? ?? [];
+
+      return results
+          .map((e) => Question.fromJson(e as Map<String, dynamic>))
+          .toList();
+    } catch (e) {
+      throw Exception('Could not load questions: $e');
+    }
+  }
+}
