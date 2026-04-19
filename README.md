@@ -1,17 +1,24 @@
-# quiz_app
+# Quiz App – Activity 15
+Mobile App Development
 
-A new Flutter project.
+## Description
+A Flutter quiz app that fetches multiple choice questions from the QuizAPI. 
+Users can answer questions, get instant correct/incorrect feedback, 
+track their score, and view results at the end.
 
-## Getting Started
+## Features
+- Fetches 10 live questions from QuizAPI
+- Green/red answer feedback
+- Score tracking
+- Results screen with Play Again option
+- Error handling with Retry button
 
-This project is a starting point for a Flutter application.
+## Built With
+- Flutter & Dart
+- QuizAPI (REST API)
+- http package
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+flutter run --dart-define=QUIZ_API_KEY=qa_sk_e7a8127e2b89564aa2a42b9becaa7fa3e26903e6
+## Author
+Uddhav Cota - 002702669
